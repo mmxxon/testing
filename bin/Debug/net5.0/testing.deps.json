@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "testing/1.0.0": {
+        "dependencies": {
+          "NUnit": "3.13.2",
+          "Selenium.WebDriver": "4.0.0-beta2",
+          "Selenium.WebDriver.ChromeDriver": "90.0.4430.2400"
+        },
+        "runtime": {
+          "testing.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "NUnit/3.13.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.13.2.0",
+            "fileVersion": "3.13.2.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.0.0-beta2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {}
+    }
+  },
+  "libraries": {
+    "testing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "NUnit/3.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u+fz/lXyR4vlamySNAEMrXvh+GhAQiB6/aVZtU5WjivR5zF26Ui0tfteDtWqT90k9D8y6g8rFKYQC97Z7d195w==",
+      "path": "nunit/3.13.2",
+      "hashPath": "nunit.3.13.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.0.0-beta2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D6R8WrTggalRviNue130FL3XA7GhBw0xckC8Y9jxLlhc5mqccX3JtUnPVqGpGrl3yq7vynXSLqEMjNEWEX9wxw==",
+      "path": "selenium.webdriver/4.0.0-beta2",
+      "hashPath": "selenium.webdriver.4.0.0-beta2.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/90.0.4430.2400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-poYw2JgVJ8obMYUSnfuucxQMrMusQiA3H2dXhw3bOaFm/bweTEAvhK8RVq+5zfjmTaj7COMYfIjhWJU0rPUabQ==",
+      "path": "selenium.webdriver.chromedriver/90.0.4430.2400",
+      "hashPath": "selenium.webdriver.chromedriver.90.0.4430.2400.nupkg.sha512"
+    }
+  }
+}
